@@ -6,6 +6,9 @@
   syscall
 %endmacro
 
+%macro SCANS 1
+%endmacro
+
 %macro RETURN 1
   mov rax, 60
   mov rdi, $1
